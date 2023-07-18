@@ -1,0 +1,71 @@
+a {
+  display: block;
+  text-decoration: none !important;
+  color: inherit;
+  width: 100%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+img {
+  width: 60%;
+  object-fit: contain;
+}
+
+.option-strategy {
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--bg-light-blue) !important;
+}
+
+.option-strategy p {
+  margin: 0;
+}
+
+.option-strategy .active {
+  background-color: rgb(16, 148, 230);
+  color: white !important;
+}
+
+.option-strategy .option {
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  height: 34px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.2rem;
+  padding: 0 1.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(62, 56, 56, 0.125);
+  box-shadow: 0 3px 47px rgba(30, 202, 171, 0.1) !important;
+}
+
+.option-strategy .option:hover p {
+  color: #1e9cca;
+}
+
+.option-strategy .display {
+  width: 70%;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgba(62, 56, 56, 0.125);
+  box-shadow: 0 3px 47px rgba(30, 202, 171, 0.1) !important;
+  border-radius: 1rem;
+}
+
+.option-strategy__options {
+  width: 25%;
+}
+
+.option-strategy ul li::marker {
+  color: #1e9cca;
+  font-size: 1.2rem;
+}
